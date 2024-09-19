@@ -1,0 +1,23 @@
+body
+{
+    background-image: url("imagens/rio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#quadrado{ 
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+label
+{
+    background-color: rgba(0, 0, 255, 0.020);
+    backdrop-filter: blur(8px);
+    font-size: 100;
+    font-family: monospace;
+    align-self: center;
+    color: white;
+    padding: 7px;
+}
